@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>온라인 프로필 - 텍스트 입력하기</title>
+    <style>
+        table {
+            width: 70%;
+            border: 1px solid #222222;
+            border-collapse: collapse;
+        }
+        thead {
+            background: #eeeeee;
+        }
+        th, td {
+            border: 1px solid #cccccc;
+            padding: 5px;
+            font-size: 0.8em;
+        }
+    </style>
 </head>
 <body>
     <div id="main">
@@ -43,7 +58,31 @@
         <!-- 학력 -->
         <section>
             <h2 class="subtitle">Education</h2>
-
+            <table>
+                <caption>학력 사항</caption>
+                <thead>
+                    <tr>
+                        <th>출신학교</th>
+                        <th>전공</th>
+                        <th>기간</th>
+                        <th>구분</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>수원과학대학교</td>
+                        <td>컴퓨터정보과</td>
+                        <td>2014.03 ~ 2019.02</td>
+                        <td>졸업</td>
+                    </tr>
+                    <tr>
+                        <td>수원공업고등학교</td>
+                        <td>디지털게임과</td>
+                        <td>2011.03 ~ 2014.02</td>
+                        <td>졸업</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </div>
 </body>
